@@ -22,6 +22,9 @@ https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Bilibili.list
 Surge 4.7+ 远程脚本配置 :
 ****************************/
 
+#!name=Bili_Auto_Regions
+#!desc=哔哩哔哩, 港澳台番剧自动切换地区 & 显示豆瓣评分
+
 [Script]
 Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/(pgc\/view\/v\d\/app\/season|x\/offline\/version)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
 
